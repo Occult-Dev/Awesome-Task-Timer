@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Awesome Timer</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="buttonGroup">
+			<div id="start" onclick="start();">NEW TIMER</div>
+			<div id="stop" onclick="stop();">STOP</div>
+		</div>
+		<div id="changeColor">
+			<div class="color" onclick="colorChange('#D4D4D4');"><img src="light.png" /></div>
+			<br /><br />
+			<div class="color" onclick="colorChange('#1F1F1F');"><img src="dark.png" /></div>
+		</div>
+		<br /><br /><br />
+		<span id="minutes"></span><br />
+		<span id="seconds"></span><br />
+		<br /><div id="alert"></div><br />
+		<hr />
+			<span id="activity1"></span>
+			<span id="activity2"></span><br />
+		<hr />
+		<a id="bugs" href='#' onclick="alert('Known Bugs \(As Of: 1/24/14\)\n-\'1 Minute Left\' alert gets stuck after starting a new timer\n-Stopping a timer, and then creating a new one causes problems with the \'STOP\' button');">KNOWN BUGS</a>
+	</div>
+</body>
+</html>

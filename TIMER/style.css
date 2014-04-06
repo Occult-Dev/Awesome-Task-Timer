@@ -1,0 +1,99 @@
+body{
+			background-color: #D4D4D4;
+		}
+		#wrapper{
+			text-align: center;
+		}
+		#minutes{
+			color: #4A5DD4;
+			font: 69px Arial Black;
+		}
+		#seconds{
+			color: #CC7D3D;
+			font: 25px Arial Black;
+		}
+		#activity1{
+			text-transform: uppercase;
+			color: #AD1C2F;
+			font: 100px Impact;
+			text-shadow: 1px 1px #696969;
+		}
+		#activity2{
+			text-transform: uppercase;
+			color: #1BC41B;
+			font: 100px Impact;
+			text-shadow: 1px 1px #696969;
+		}
+		#start{
+			float: left;
+			width: 150px;
+			height: 16px;
+			padding: 13px;
+			font: 22px Tahoma;
+			font-weight: bold;
+			color: white;
+			background-color: #43DB35;
+			-moz-transition-property: height;
+			-o-transition-property: height;
+			-webkit-transition-property: height;
+			transition-property: height;
+			
+			-moz-transition-duration: 1s;
+			-o-transition-duration: 1s;
+			-webkit-transition-duration: 1s;
+			transition-duration: 1s;
+		}
+		#start:hover{
+			height: 44px;
+			background-color: #46F260;
+		}
+		#start:active{
+			background-color: #157D07;
+		}
+		#stop{
+			float: left;
+			width: 150px;
+			height: 16px;
+			padding: 13px;
+			font: 22px Tahoma;
+			font-weight: bold;
+			color: white;
+			background-color: #BF2C2C;
+			-moz-transition-property: height;
+			-o-transition-property: height;
+			-webkit-transition-property: height;
+			transition-property: height;
+			
+			-moz-transition-duration: 1s;
+			-o-transition-duration: 1s;
+			-webkit-transition-duration: 1s;
+			transition-duration: 1s;
+		}
+		#stop:hover{
+			height: 44px;
+			background-color: #E04141;
+		}
+		#stop:active{
+			background-color: #781111;
+		}
+		#buttonGroup{
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			position: absolute;
+			margin: auto;
+			width: 355px;
+		}
+		#alert{
+			color: #EDED0C;
+			font: 30px TAhoma;
+			text-shadow: 2px 2px #000000;
+			background-color: #D69315;
+		}
+		#bugs{
+			color: #000000;
+			font:13px Lucida Console;
+		}
+		.color{
+			float: left;
+		}
